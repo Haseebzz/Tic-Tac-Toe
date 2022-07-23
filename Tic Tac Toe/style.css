@@ -1,0 +1,48 @@
+body{
+    background-color: darkgreen;
+    margin: 0;
+    text-align: center;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+    width: 500px;
+}
+
+#board{
+    height: 450px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    margin-top: 2rem;
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+button:hover{
+    color: darkblue;
+}
+
+.tile{
+    height: 145px;
+    width: 145px;
+    background-color: cyan;
+    margin-right: 2px;
+    font-size: 4rem;
+}
+
+.winner{
+    color: red;
+    background-color: gray;
+}
+
+@media(max-width: 500px){
+    
+}
